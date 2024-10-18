@@ -1,0 +1,38 @@
+[
+    {
+        "src": "/images/ice-cream.webp",
+        "altImage": "First dessert Image",
+        "title": "Sobremesa da Casa",
+        "description": "Versão exclusiva da Banoffee no estilo Outback: base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela. Contém nozes ou derivado de nozes. *Vegetariano – Esse produto contém leite e ovo em sua composição.",
+        "secondTitle": "",
+        "ingredients": "",
+        "price": 29.90
+    },
+    {
+        "src": "/images/ice-cream.webp",
+        "altImage": "First dessert Image",
+        "title": "Cinna Cream Monrol",
+        "description": "Versão exclusiva da Banoffee no estilo Outback: base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela.",
+        "secondTitle": "",
+        "ingredients": "",
+        "price": 34.90
+    },
+    {
+        "src": "/images/ice-cream.webp",
+        "altImage": "First dessert Image",
+        "title": "Sobremesa da Casa 3",
+        "description": "Versão exclusiva da Banoffee no estilo Outback: base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela. Contém nozes ou derivado de nozes. *Vegetariano – Esse produto contém leite e ovo em sua composição.",
+        "secondTitle": "",
+        "ingredients": "",
+        "price": 29.90
+    },
+    {
+        "src": "/images/ice-cream.webp",
+        "altImage": "First dessert Image",
+        "title": "Cinna Cream Monrol 4",
+        "description": "Versão exclusiva da Banoffee no estilo Outback: base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela.",
+        "secondTitle": "",
+        "ingredients": "",
+        "price": 34.90
+    }
+]

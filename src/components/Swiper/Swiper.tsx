@@ -1,0 +1,47 @@
+import { FaCircleArrowLeft, FaCircleArrowRight } from "react-icons/fa6";
+import { Product } from "@/components/Product/Product";
+import { Swiper, SwiperSlide, useSwiper  } from 'swiper/react';
+import { A11y } from 'swiper/modules';
+import 'swiper/css';
+
+const SwiperButtonNext = () => {
+  const swiper = useSwiper();
+  return <FaCircleArrowRight id='rightArrow' onClick={() => swiper.slideNext()} className='absolute right-2 text-3xl text-[#FFAE00] z-[2] mt-[4rem] lg:mt-0 cursor-pointer hover:text-[#D73BC7]' />;
+};
+const SwiperButtonPrev = () => {
+  const swiper = useSwiper();
+  return <FaCircleArrowLeft id='leftArrow' onClick={() => swiper.slidePrev()} className='absolute left-2 text-3xl text-[#FFAE00] z-[2] mt-[4rem] lg:mt-0 cursor-pointer hover:text-[#D73BC7]' />
+};
+
+interface BurguerInfo {
+    src: string,
+    altImage: string,
+    title: string,
+    description: string,
+    secondTitle: string,
+    ingredients: string,
+    price: number
+}
+
+export const ProductsSwiper = ({DataArray, identification}: {DataArray: BurguerInfo[], identification: string}) => {
+    return (
+        <section className='h-[43rem] lg:h-[30rem] flex justify-center items-center text-white' id={identification}>
+            <Swiper
+            modules={[ A11y]} loop slidesPerView={1}className='flex justify-center items-center relative'>
+                <SwiperButtonPrev />
+                {DataArray.length > 0 ? (
+                    DataArray.map((product, index) => (
+                        <SwiperSlide key={index} className='flex flex-col lg:flex-row justify-evenly items-center text-justify gap-4 px-2rem'>
+                            <Product info={product} />
+                        </SwiperSlide>
+                    ))
+                ) : (
+                    <li className='text-center text-[#FFAE00]'>
+                        <p>Carregando as informações...</p>
+                    </li>
+                )}
+                <SwiperButtonNext />
+            </Swiper>
+        </section>
+    )
+}
