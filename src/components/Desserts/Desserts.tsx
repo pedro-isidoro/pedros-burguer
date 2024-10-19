@@ -4,7 +4,7 @@ import dessertsData from '@/json/desserts.json'
 export const Desserts = () => {
     return (
         <>
-            <ProductsSwiper DataArray={dessertsData} identification="desserts" />
+            <ProductsSwiper DataArray={dessertsData} identification="desserts" backgroundName="dessertImage" />
         </>
     )
 }

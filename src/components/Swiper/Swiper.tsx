@@ -23,9 +23,17 @@ interface BurguerInfo {
     price: number
 }
 
-export const ProductsSwiper = ({DataArray, identification}: {DataArray: BurguerInfo[], identification: string}) => {
+const backgroundClasses: { [key: string]: string } = {
+    fireImage: 'lg:bg-fireImage',
+    refriImage: 'lg:bg-refriImage',
+    dessertImage: 'lg:bg-dessertImage',
+};
+
+export const ProductsSwiper = ({DataArray, identification, backgroundName}: {DataArray: BurguerInfo[], identification: string, backgroundName:string}) => {
+    const validBackground = backgroundClasses[backgroundName] || '';
+    // console.log("ValidBackground: ", validBackground)
     return (
-        <section className='h-[43rem] lg:h-[30rem] flex justify-center items-center text-white' id={identification}>
+        <section className={`h-[43rem] lg:h-[30rem] flex justify-center items-center text-white lg:bg-cover lg:bg-center ${validBackground} lg:my-[2.5rem]`} id={identification}>
             <Swiper
             modules={[ A11y]} loop slidesPerView={1}className='flex justify-center items-center relative'>
                 <SwiperButtonPrev />

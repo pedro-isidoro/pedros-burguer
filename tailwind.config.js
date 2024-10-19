@@ -9,6 +9,9 @@ export default {
     extend: {
       backgroundImage: {
         logoImage: "url('/images/hamburguers.jpg')",
+        fireImage: "url('/images/brasas.jpg')",
+        refriImage: "url('/images/bebidas.jpg')",
+        dessertImage: "url('/images/berry-cheesecake.jpg')",
       },
       keyframes: {
         floatOwn: {

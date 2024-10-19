@@ -12,7 +12,7 @@ export const Product = ({info}: {info: BurguerInfo}) => {
     return (
         <>
             <img src={info.src} alt={info.altImage} className="w-[24rem] h-[20rem] rounded-xl mb-2" />
-            <div className="w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] flex flex-col gap-3 items-center text-black dark:text-white">
+            <div className="w-[80%] sm:w-[60%] md:w-[50%] lg:w-[30%] flex flex-col gap-3 items-center lg:items-end text-black dark:text-white">
                 <h2 className="uppercase font-bold text-2xl text-[#FFAE00] text-center">{info.title}</h2>
                 <p>{info.description}</p>
                 <h3 className="text-xl font-semibold text-[#FFAE00] text-center">{info.secondTitle}</h3>

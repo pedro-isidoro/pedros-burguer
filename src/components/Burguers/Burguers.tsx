@@ -4,7 +4,7 @@ import { ProductsSwiper } from '@/components//Swiper/Swiper'
 export const Burguers = () => {
     return (
         <>
-            <ProductsSwiper DataArray={hamburguersData} identification="burguers" />
+            <ProductsSwiper DataArray={hamburguersData} identification="burguers" backgroundName="fireImage" />
         </>
     )
 }
