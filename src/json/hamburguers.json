@@ -3,7 +3,7 @@
         "src": "/images/first-burguer.jpg",
         "altImage": "First Burguer Image",
         "title": "Hambúrguer da Casa",
-        "description": "Um lanche desenvolvido pelo dono do da Pedro’s Burguer após diversos testes.",
+        "description": "Um lanche desenvolvido pelo dono da Pedro’s Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
         "price": 49.90
@@ -20,8 +20,8 @@
     {
         "src": "/images/first-burguer.jpg",
         "altImage": "First Burguer Image",
-        "title": "Hambúrguer da Casa 3",
-        "description": "Um lanche desenvolvido pelo dono do da Pedro’s Burguer após diversos testes.",
+        "title": "Hambúrguer 3",
+        "description": "Um lanche desenvolvido pelo dono da Pedro’s Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
         "price": 49.90
@@ -38,8 +38,8 @@
     {
         "src": "/images/first-burguer.jpg",
         "altImage": "First Burguer Image",
-        "title": "Hambúrguer da Casa 5",
-        "description": "Um lanche desenvolvido pelo dono do da Pedro’s Burguer após diversos testes.",
+        "title": "Hambúrguer 5",
+        "description": "Um lanche desenvolvido pelo dono da Pedro’s Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
         "price": 49.90

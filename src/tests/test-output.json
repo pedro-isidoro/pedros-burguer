@@ -1,0 +1,188 @@
+{"numTotalTestSuites":20,"numPassedTestSuites":20,"numFailedTestSuites":0,"numPendingTestSuites":0,"numTotalTests":59,"nu    <testsuite name="address.spec.tsx" timestamp="2024-10-21T00:28:02.937Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
+        <testcase classname="address.spec.tsx" name="Address - Should render elements &gt; Should render Title" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="address.spec.tsx" name="Address - Should render elements &gt; Should render paragraph 1" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="address.spec.tsx" name="Address - Should render elements &gt; Should render paragraph 2" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="address.spec.tsx" name="Address - Should render elements &gt; Should render Alt Text Images" time="0">
+            <skipped/>
+        </testcase>
+    </testsuite>
+    <testsuite name="BurguersSlider.spec.tsx" timestamp="2024-10-21T00:28:02.954Z" hostname="Pedro" tests="7" failures="0" errors="0" skipped="7" time="0">
+        <testcase classname="BurguersSlider.spec.tsx" name="Burguers - Should render elements &gt; Should render Alt Text Images" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="BurguersSlider.spec.tsx" name="Burguers - Should render elements &gt; Should render burguer title" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="BurguersSlider.spec.tsx" name="Burguers - Should render elements &gt; Should render burguer paragraph" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="BurguersSlider.spec.tsx" name="Burguers - Should render elements &gt; Should render burguer ingredients title" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="BurguersSlider.spec.tsx" name="Burguers - Should render elements &gt; Should render burguer ingredients paragraph" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="BurguersSlider.spec.tsx" name="Burguers - Should render elements &gt; Should render burguer price paragraph" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="BurguersSlider.spec.tsx" name="Burguers - Should render elements &gt; Should render add to cart button" time="0">
+            <skipped/>
+        </testcase>
+    </testsuite>
+    <testsuite name="Desserts.spec.tsx" timestamp="2024-10-21T00:28:02.960Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
+        <testcase classname="Desserts.spec.tsx" name="Desserts - Should render elements &gt; Should render Alt Text Images" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Desserts.spec.tsx" name="Desserts - Should render elements &gt; Should render Dessert title" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Desserts.spec.tsx" name="Desserts - Should render elements &gt; Should render Dessert paragraph" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Desserts.spec.tsx" name="Desserts - Should render elements &gt; Should render Dessert price paragraph" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Desserts.spec.tsx" name="Desserts - Should render elements &gt; Should render add to cart button" time="0">
+            <skipped/>
+        </testcase>
+    </testsuite>
+    <testsuite name="DrinksSlider.spec.tsx" timestamp="2024-10-21T00:28:02.965Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
+        <testcase classname="DrinksSlider.spec.tsx" name="Drinks - Should render elements &gt; Should render Alt Text Images" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="DrinksSlider.spec.tsx" name="Drinks - Should render elements &gt; Should render Drink title" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="DrinksSlider.spec.tsx" name="Drinks - Should render elements &gt; Should render Drink paragraph" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="DrinksSlider.spec.tsx" name="Drinks - Should render elements &gt; Should render Drink price paragraph" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="DrinksSlider.spec.tsx" name="Drinks - Should render elements &gt; Should render add to cart button" time="0">
+            <skipped/>
+        </testcase>
+    </testsuite>
+    <testsuite name="Footer.spec.tsx" timestamp="2024-10-21T00:28:02.971Z" hostname="Pedro" tests="7" failures="0" errors="0" skipped="0" time="0.5407125">
+        <testcase classname="Footer.spec.tsx" name="Footer - Should render elements &gt; Should render Alt Text Images" time="0.2949275">
+        </testcase>
+        <testcase classname="Footer.spec.tsx" name="Footer - Should render elements &gt; Should render instagram icon" time="0.0556204">
+        </testcase>
+        <testcase classname="Footer.spec.tsx" name="Footer - Should render elements &gt; Should render Facebook icon" time="0.051995">
+        </testcase>
+        <testcase classname="Footer.spec.tsx" name="Footer - Should render elements &gt; Should render whatsapp icon" time="0.0221169">
+        </testcase>
+        <testcase classname="Footer.spec.tsx" name="Footer - Should render elements &gt; Should render Footer Title" time="0.0547428">
+        </testcase>
+        <testcase classname="Footer.spec.tsx" name="Footer - Should render elements &gt; Should render Footer Subtitle" time="0.0305844">
+        </testcase>
+        <testcase classname="Footer.spec.tsx" name="Footer - Should render elements &gt; Should render arrow up icon" time="0.0231493">
+        </testcase>
+    </testsuite>
+    <testsuite name="Header.spec.tsx" timestamp="2024-10-21T00:28:02.976Z" hostname="Pedro" tests="24" failures="0" errors="0" skipped="24" time="0">
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Should render forkIcon from menu" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Should render cartIcon from menu" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Nav Elements &gt; Should render close icon" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Nav Elements &gt; Should render Home button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Nav Elements &gt; Should render Hamburguers button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Nav Elements &gt; Should render Bebidas button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Nav Elements &gt; Should render Sobremesas button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Nav Elements &gt; Should render Endereco button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Nav Elements &gt; Should render Contatos button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Shouldnt render Nav Elements &gt; Shouldnt render close icon" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Shouldnt render Nav Elements &gt; Shouldnt render Home button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Shouldnt render Nav Elements &gt; Shouldnt render Hamburguers button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Shouldnt render Nav Elements &gt; Shouldnt render Bebidas button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Shouldnt render Nav Elements &gt; Shouldnt render Sobremesas button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Shouldnt render Nav Elements &gt; Shouldnt render Endereco button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Menu Aside - Shouldnt render Nav Elements &gt; Shouldnt render Contatos button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Cart Aside - Cart Elements &gt; Should render close icon" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Cart Aside - Cart Elements &gt; Should render Total Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Cart Aside - Cart Elements &gt; Should render R$ Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Cart Aside - Cart Elements &gt; Should render Finalizar button" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Cart Aside - Shouldnt render Cart Elements &gt; Shouldnt render close icon" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Cart Aside - Shouldnt render Cart Elements &gt; Shouldnt render Total Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Cart Aside - Shouldnt render Cart Elements &gt; Should render R$ Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Cart Aside - Shouldnt render Cart Elements &gt; Should render Finalizar button" time="0">
+            <skipped/>
+        </testcase>
+    </testsuite>
+    <testsuite name="Home.spec.tsx" timestamp="2024-10-21T00:28:03.014Z" hostname="Pedro" tests="3" failures="0" errors="0" skipped="3" time="0">
+        <testcase classname="Home.spec.tsx" name="Home - Should render elements &gt; Should render Top Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Home.spec.tsx" name="Home - Should render elements &gt; Should render Bottom Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Home.spec.tsx" name="Home - Should render elements &gt; Should render alt text images" time="0">
+            <skipped/>
+        </testcase>
+    </testsuite>
+    <testsuite name="Logo.spec.tsx" timestamp="2024-10-21T00:28:03.019Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
+        <testcase classname="Logo.spec.tsx" name="Logo - Should render elements and status &gt; Should render logoImage" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Logo.spec.tsx" name="Logo - Should render elements and status &gt; Should render Logo Text" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Logo.spec.tsx" name="Logo - Should render elements and status &gt; Should show restaurant is open between 17:00 and 23:30" time="0">
+            <skipped/>
+        </testcase>
+        <testcase classname="Logo.spec.tsx" name="Logo - Should render elements and status &gt; Should show restaurant is closed outside working hours" time="0">
+            <skipped/>
+        </testcase>
+    </testsuite>
+</testsuites>
+t render Contatos button","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Cart Elements Should render close icon","status":"skipped","title":"Should render close icon","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Cart Elements Should render Total Text","status":"skipped","title":"Should render Total Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Cart Elements Should render R$ Text","status":"skipped","title":"Should render R$ Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Cart Elements Should render Finalizar button","status":"skipped","title":"Should render Finalizar button","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Shouldnt render close icon","status":"skipped","title":"Shouldnt render close icon","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Shouldnt render Total Text","status":"skipped","title":"Shouldnt render Total Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Should render R$ Text","status":"skipped","title":"Should render R$ Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Should render Finalizar button","status":"skipped","title":"Should render Finalizar button","failureMessages":[],"meta":{}}],"startTime":1729470470091,"endTime":1729470470091,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Header.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render Top Text","status":"skipped","title":"Should render Top Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render Bottom Text","status":"skipped","title":"Should render Bottom Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render alt text images","status":"skipped","title":"Should render alt text images","failureMessages":[],"meta":{}}],"startTime":1729470470091,"endTime":1729470470091,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Home.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should render logoImage","status":"skipped","title":"Should render logoImage","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should render Logo Text","status":"skipped","title":"Should render Logo Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should show restaurant is open between 17:00 and 23:30","status":"skipped","title":"Should show restaurant is open between 17:00 and 23:30","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should show restaurant is closed outside working hours","status":"skipped","title":"Should show restaurant is closed outside working hours","failureMessages":[],"meta":{}}],"startTime":1729470470091,"endTime":1729470470091,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Logo.spec.tsx"}]}

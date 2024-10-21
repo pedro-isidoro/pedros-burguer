@@ -3,7 +3,7 @@
         "src": "/images/soda.webp",
         "altImage": "First drink Image",
         "title": "Refrigerante Coca-Cola",
-        "description": "Uma Bebida enlatada e  Gaseificada da marca coca-cola no sabor cola. Unidade com 375ml",
+        "description": "Uma Bebida enlatada e Gaseificada da marca coca-cola no sabor cola. Unidade com 375ml",
         "secondTitle": "",
         "ingredients": "",
         "price": 9.90
@@ -12,7 +12,7 @@
         "src": "/images/soda.webp",
         "altImage": "First drink Image",
         "title": "Refrigerante Guaraná Antártica",
-        "description": "Uma Bebida enlatada e  Gaseificada da marca Guaraná Antártica no sabor Guaraná. Unidade com 375ml",
+        "description": "Uma Bebida enlatada e Gaseificada da marca Guaraná Antártica no sabor Guaraná. Unidade com 375ml",
         "secondTitle": "",
         "ingredients": "",
         "price": 8.90
@@ -20,8 +20,8 @@
     {
         "src": "/images/soda.webp",
         "altImage": "First drink Image",
-        "title": "Refrigerante Coca-Cola 3",
-        "description": "Uma Bebida enlatada e  Gaseificada da marca coca-cola no sabor cola. Unidade com 375ml",
+        "title": "Refrigerante 3",
+        "description": "Uma Bebida enlatada e Gaseificada da marca coca-cola no sabor cola. Unidade com 375ml",
         "secondTitle": "",
         "ingredients": "",
         "price": 9.90
@@ -29,8 +29,8 @@
     {
         "src": "/images/soda.webp",
         "altImage": "First drink Image",
-        "title": "Refrigerante Guaraná Antártica 4",
-        "description": "Uma Bebida enlatada e  Gaseificada da marca Guaraná Antártica no sabor Guaraná. Unidade com 375ml",
+        "title": "Refrigerante 4",
+        "description": "Uma Bebida enlatada e Gaseificada da marca Guaraná Antártica no sabor Guaraná. Unidade com 375ml",
         "secondTitle": "",
         "ingredients": "",
         "price": 8.90

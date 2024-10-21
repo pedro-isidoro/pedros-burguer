@@ -5,7 +5,7 @@ export const Address = () => {
                 <h2 className="text-3xl font-bold text-[#FFCC00]">Endereço</h2>
                 <p>Rua Javascript 44<br/>Bairro HTMLCSS</p>
             </div>
-            <img src="images/hamburguers.jpg" className="w-[22rem] sm:w-[26rem] md:w-[30rem] lg:w-[34rem]" alt="" />
+            <img src="images/hamburguers.jpg" className="w-[22rem] sm:w-[26rem] md:w-[30rem] lg:w-[34rem]" alt="map" />
         </section>
     )
 }
