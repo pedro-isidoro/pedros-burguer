@@ -14,13 +14,15 @@ const SwiperButtonPrev = () => {
 };
 
 interface BurguerInfo {
+    id: number | string,
     src: string,
     altImage: string,
     title: string,
     description: string,
     secondTitle: string,
     ingredients: string,
-    price: number
+    price: number,
+    quantity: number
 }
 
 const backgroundClasses: { [key: string]: string } = {

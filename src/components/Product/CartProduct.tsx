@@ -1,16 +1,20 @@
+import { useProductStore } from "@/store/cart";
 import { FaPlus, FaMinus, FaRegTrashAlt } from "react-icons/fa";
 
 interface BurguerInfo {
+    id: string | number,
     src: string,
     altImage: string,
     title: string,
     description: string,
     secondTitle: string,
     ingredients: string,
-    price: number
+    price: number,
+    quantity: number
 }
 
 export const CartProduct = ({info}: {info: BurguerInfo}) => {
+    const { removeProduct, incrementQuantity, decrementQuantity } = useProductStore()
     return (
         <>
             <div className="w-[60%] h-full flex items-center">
@@ -23,12 +27,12 @@ export const CartProduct = ({info}: {info: BurguerInfo}) => {
                 </div>
                 <div className="w-full px-4 flex justify-between items-center">
                     <div className="flex items-center gap-2">
-                        <FaPlus className="text-sm text-[#d73bc7d5] cursor-pointer hover:text-green-400"/>
-                        <p>0</p>
+                        <FaPlus className="text-sm text-[#d73bc7d5] cursor-pointer hover:text-green-400" onClick={()=> incrementQuantity(info.id)}/>
+                        <p>{info.quantity}</p>
                         <FaMinus className="text-sm text-[#d73bc7d5] cursor-pointer hover:text-red-600
-                        hover:font-black"/>
+                        hover:font-black" onClick={()=> decrementQuantity(info.id)}/>
                     </div>
-                    <FaRegTrashAlt className="text-lg text-[#d73bc7d5] cursor-pointer hover:text-red-600 hover:font-black"/>
+                    <FaRegTrashAlt className="text-lg text-[#d73bc7d5] cursor-pointer hover:text-red-600 hover:font-black" onClick={()=>removeProduct(info.id)} />
                 </div>
             </div>
         </>

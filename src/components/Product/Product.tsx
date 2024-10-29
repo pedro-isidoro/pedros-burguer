@@ -1,14 +1,20 @@
+import { useProductStore } from "@/store/cart"
+
 interface BurguerInfo {
+    id: number | string,
     src: string,
     altImage: string,
     title: string,
     description: string,
     secondTitle: string,
     ingredients: string,
-    price: number
+    price: number,
+    quantity: number
 }
 
 export const Product = ({info}: {info: BurguerInfo}) => {
+    
+    const { addProduct } = useProductStore()
     return (
         <>
             <img src={info.src} alt={info.altImage} className="w-[24rem] h-[20rem] rounded-xl mb-2" />
@@ -18,7 +24,7 @@ export const Product = ({info}: {info: BurguerInfo}) => {
                 <h3 className="text-xl font-semibold text-[#FFAE00] text-center">{info.secondTitle}</h3>
                 <p>{info.ingredients}</p>
                 <p className="text-center">R$ <span className="text-3xl text-[#FFAE00]">{info.price}</span></p>
-                <button className="w-44 h-8 bg-[#FFAE00] rounded-lg text-[#000] font-extrabold hover:bg-[#d73bc793]">ADD to Cart</button>
+                <button className="w-44 h-8 bg-[#FFAE00] rounded-lg text-[#000] font-extrabold hover:bg-[#d73bc793]" onClick={()=>addProduct(info)}>ADD to Cart</button>
             </div>
         </>
     )

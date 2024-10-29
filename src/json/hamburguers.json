@@ -1,56 +1,68 @@
 [
     {
+        "id": 1,
         "src": "/images/first-burguer.jpg",
         "altImage": "First Burguer Image",
         "title": "Hambúrguer da Casa",
         "description": "Um lanche desenvolvido pelo dono da Pedro’s Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
-        "price": 49.90
+        "price": 49.90,
+        "quantity": 0
     },
     {
+        "id": 2,
         "src": "/images/first-burguer.jpg",
         "altImage": "X Burguer Image",
         "title": "X-Burguer",
         "description": "Um lanche servido por todo o mundo Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
-        "price": 39.90
+        "price": 39.90,
+        "quantity": 0
     },
     {
+        "id": 3,
         "src": "/images/first-burguer.jpg",
         "altImage": "First Burguer Image",
         "title": "Hambúrguer 3",
         "description": "Um lanche desenvolvido pelo dono da Pedro’s Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
-        "price": 49.90
+        "price": 49.90,
+        "quantity": 0
     },
     {
+        "id": 4,
         "src": "/images/first-burguer.jpg",
         "altImage": "X Burguer Image",
         "title": "X-Burguer 4",
         "description": "Um lanche servido por todo o mundo Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
-        "price": 39.90
+        "price": 39.90,
+        "quantity": 0
     },
     {
+        "id": 5,
         "src": "/images/first-burguer.jpg",
         "altImage": "First Burguer Image",
         "title": "Hambúrguer 5",
         "description": "Um lanche desenvolvido pelo dono da Pedro’s Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
-        "price": 49.90
+        "price": 49.90,
+        "quantity": 0
     },
     {
+        "id": 6,
         "src": "/images/first-burguer.jpg",
         "altImage": "X Burguer Image",
         "title": "X-Burguer 6",
         "description": "Um lanche servido por todo o mundo Burguer após diversos testes.",
         "secondTitle": "Ingredientes",
         "ingredients": "Pão Brioche, Maionese Verde, alface, tomate, queijo mussarela, blend de carne, bacon e geleia de bacon.",
-        "price": 39.90
+        "price": 39.90,
+        "quantity": 0
     }
 ]
