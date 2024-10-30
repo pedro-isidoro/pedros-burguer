@@ -1,5 +1,6 @@
-import { useProductStore } from "@/store/cart";
 import { useState } from "react";
+import { useProductStore } from "@/store/cart";
+import { warningNotify, loadingNotify } from "@/components/sooner/Sooner"
 
 interface props{
     isOpen: boolean,
@@ -32,13 +33,17 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
     }
     const handleValues = () => {
         if (products.length <= 0) {
-            alert("Adicione um Produto ao carrinho, ANTES de finalizar um pedido!");
+            warningNotify("Adicione um Produto ao carrinho!")
+            warningNotify("ANTES de finalizar um pedido!")
         } else if (addressValue === "" || products.length <= 0) {
-            alert("Insira um endereço de entrega!");
+            warningNotify("Insira um endereço de entrega!");
         } else {
-            setReadyToSend(false);
-            messageToWhatsApp();
-            location.reload();
+            loadingNotify();
+            setTimeout(() => {
+                setReadyToSend(false);
+                messageToWhatsApp();
+                location.reload();
+            }, 3500);
         }
     }
     if(isOpen){

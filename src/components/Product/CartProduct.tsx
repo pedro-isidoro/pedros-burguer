@@ -1,6 +1,6 @@
 import { useProductStore } from "@/store/cart";
 import { FaPlus, FaMinus, FaRegTrashAlt } from "react-icons/fa";
-import { notify, removeNotify, decreaseNotify } from "@/components/sooner/Sooner"
+import { notify, removeNotify } from "@/components/sooner/Sooner"
 
 interface BurguerInfo {
     id: string | number,
@@ -31,7 +31,7 @@ export const CartProduct = ({info}: {info: BurguerInfo}) => {
                         <FaPlus className="text-sm text-[#d73bc7d5] cursor-pointer hover:text-green-400" onClick={()=> {incrementQuantity(info.id); notify()}}/>
                         <p>{info.quantity}</p>
                         <FaMinus className="text-sm text-[#d73bc7d5] cursor-pointer hover:text-red-600
-                        hover:font-black" onClick={()=> {decrementQuantity(info.id); decreaseNotify()}}/>
+                        hover:font-black" onClick={()=> {decrementQuantity(info.id); removeNotify()}}/>
                     </div>
                     <FaRegTrashAlt className="text-lg text-[#d73bc7d5] cursor-pointer hover:text-red-600 hover:font-black" onClick={()=>{removeProduct(info.id); removeNotify()}} />
                 </div>
