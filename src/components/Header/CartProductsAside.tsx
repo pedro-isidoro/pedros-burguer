@@ -9,7 +9,7 @@ interface MenuAsiderProps {
 export const CartProductsAside = ({closeModal, openFinalModal}:MenuAsiderProps) => {
     const { products, total } = useProductStore()
     return (
-        <aside className="h-screen w-[22rem] bg-black dark:bg-[#FFCC00] roun flex flex-col items-start absolute right-0 top-0 py-2 px-4 gap-[0.5rem] text-white dark:text-black">
+        <aside className="h-screen w-[22rem] bg-black dark:bg-[#FFCC00] roun flex flex-col items-end absolute left-0 top-0 py-2 px-4 gap-[0.5rem] text-white dark:text-black">
             <FaX data-testid="secondFax" className="text-2xl hover:text-[#d73bc7d5] cursor-pointer mb-1" onClick={closeModal}/>
                 <div id="products-info-section relative" className=" h-full w-full">
                 <ul className="h-[90%] flex flex-col items-center overflow-y-auto scrollbar scrollbar-track-transparent scrollbar-thumb-[#d73bc7d5] gap-2">

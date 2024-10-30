@@ -1,4 +1,5 @@
 import { useProductStore } from "@/store/cart"
+import { notify } from "@/components/sooner/Sooner"
 
 interface BurguerInfo {
     id: number | string,
@@ -24,7 +25,7 @@ export const Product = ({info}: {info: BurguerInfo}) => {
                 <h3 className="text-xl font-semibold text-[#FFAE00] text-center">{info.secondTitle}</h3>
                 <p>{info.ingredients}</p>
                 <p className="text-center">R$ <span className="text-3xl text-[#FFAE00]">{info.price}</span></p>
-                <button className="w-44 h-8 bg-[#FFAE00] rounded-lg text-[#000] font-extrabold hover:bg-[#d73bc793]" onClick={()=>addProduct(info)}>ADD to Cart</button>
+                <button className="w-44 h-8 bg-[#FFAE00] rounded-lg text-[#000] font-extrabold hover:bg-[#d73bc793]" onClick={()=>{addProduct(info); notify()}}>ADD to Cart</button>
             </div>
         </>
     )

@@ -21,7 +21,7 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
         const phone = "5511970601261"
 
         window.open(
-        `https://wa.me/${phone}?text=${message}%0ATotal do Pedido: ${total}%0AEndereço de entrega: ${addressValue}`,
+        `https://wa.me/${phone}?text=${message}%0ATotal do Pedido: ${total()}%0AEndereço de entrega: ${addressValue}`,
         "_blank"
         );
     }
@@ -34,7 +34,7 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
         if (products.length <= 0) {
             alert("Adicione um Produto ao carrinho, ANTES de finalizar um pedido!");
         } else if (addressValue === "" || products.length <= 0) {
-            setReadyToSend(true);
+            alert("Insira um endereço de entrega!");
         } else {
             setReadyToSend(false);
             messageToWhatsApp();
@@ -43,13 +43,14 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
     }
     if(isOpen){
         return(
-            <div className="absolute z-20 w-full h-screen bg-[#000000ce] flex justify-center items-center">
-                <div className="w-[24rem] h-[28rem] md:w-[30rem] bg-white text-black flex flex-col justify-between items-center pt-4 rounded-xl">
-                    <ul className="w-[70%] h-full flex flex-col justify-start items-center gap-2 overflow-y-auto scrollbar scrollbar-track-transparent scrollbar-thumb-[#d73bc7d5] pr-1">
+            <div className="bg-black/70 w-full h-full fixed top-0 left-0 z-30 items-center justify-center flex">
+                <div className="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+                    <h2 className="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
+                    <ul className="w-full max-h-[17rem] grid grid-cols-1 items-center gap-2 md:gap-5 overflow-y-auto scrollbar scrollbar-track-transparent scrollbar-thumb-[#d73bc7d5] pr-1">
                         {products.map((product, index)=>(
-                            <li key={index} className="w-full h-12 flex flex-col justify-center items-start border-t-2 border-t-black pt-2">
-                                <h3>{product.title}</h3>
-                                <div className="w-[80%] flex justify-between">
+                            <li key={index} className="w-full h-12 flex flex-col justify-center items-start border-l-2 border-l-black px-2">
+                                <h3 className="font-bold text-lg">{product.title}</h3>
+                                <div className="w-[100%] flex justify-between font-bold text-lg">
                                     <p>R$ <span className="text-[#d73bc7d5]">{product.price}</span></p>
                                     <p>Qtd: <span className="text-[#d73bc7d5]">{product.quantity}</span></p>
                                 </div>
@@ -57,9 +58,10 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
                         ))}    
                     </ul>
                     <div className="w-full text-center">
-                        <p className="py-2">Total: <span className="text-[#d73bc7d5]">{total()}</span></p>
-                        <div className="w-full py-2">
-                            <input type="text" placeholder="Digite seu Endereço" className="w-[80%] border-2 p-1 rounded my-1 focus:outline-none" onChange={handleChange} />
+                        <p className="py-2 font-bold text-lg">Total: <span className="text-[#d73bc7d5]">{total()}</span></p>
+                        <div className="w-full py-2 flex flex-col items-start font-bold text-lg">
+                            <p className="mt-4 font-bold text-lg">Endereço de Entrega:</p>
+                            <input type="text" placeholder="Digite seu Endereço" className="w-full border-2 p-1 rounded my-1 focus:outline-none" onChange={handleChange} />
                             {readyToSend ? (
                                 <p id="address-warning" className="text-xs text-red-500 px-1">
                                 Digite seu endereço completo
@@ -68,9 +70,9 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
                                 <></>
                             )}
                         </div>
-                        <div className="w-full flex justify-between items-center px-4">
-                            <p className="text-[#d73bc7d5] hover:cursor-pointer hover:text-white" onClick={()=>setModalClosed()}>Fechar</p>
-                            <button className="h-12 text-[#d73bc7d5] hover:text-white" onClick={handleValues}>Enviar Pedido</button>
+                        <div className="flex items-center justify-between mt-5 w-full font-bold text-lg">
+                            <p className="text-[#d73bc7d5] hover:cursor-pointer hover:text-black" onClick={()=>setModalClosed()}>Fechar</p>
+                            <button className="h-12 text-[#d73bc7d5] hover:text-black" onClick={handleValues}>Enviar Pedido!</button>
                         </div>
                     </div>
                 </div>
