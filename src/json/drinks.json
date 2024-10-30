@@ -1,8 +1,8 @@
 [
     {
         "id": 11,
-        "src": "/images/soda.webp",
-        "altImage": "First drink Image",
+        "src": "/images/drinks/soda.webp",
+        "altImage": "Refrigerante Coca-Cola",
         "title": "Refrigerante Coca-Cola",
         "description": "Uma Bebida enlatada e Gaseificada da marca coca-cola no sabor cola. Unidade com 375ml",
         "secondTitle": "",
@@ -12,8 +12,8 @@
     },
     {
         "id": 12,
-        "src": "/images/soda.webp",
-        "altImage": "First drink Image",
+        "src": "/images/drinks/drinks-1.webp",
+        "altImage": "Refrigerante Guaraná Antártica",
         "title": "Refrigerante Guaraná Antártica",
         "description": "Uma Bebida enlatada e Gaseificada da marca Guaraná Antártica no sabor Guaraná. Unidade com 375ml",
         "secondTitle": "",
@@ -23,24 +23,24 @@
     },
     {
         "id": 13,
-        "src": "/images/soda.webp",
-        "altImage": "First drink Image",
-        "title": "Refrigerante 3",
-        "description": "Uma Bebida enlatada e Gaseificada da marca coca-cola no sabor cola. Unidade com 375ml",
+        "src": "/images/drinks/drinks-2.webp",
+        "altImage": "Cerveja Puro Malte",
+        "title": "Cerveja Puro Malte",
+        "description": "Uma cerveja lager puro malte, leve e refrescante, ideal para acompanhar qualquer lanche. Copo de 400ml.",
         "secondTitle": "",
         "ingredients": "",
-        "price": 9.90,
+        "price": 12.90,
         "quantity": 0
     },
     {
         "id": 14,
-        "src": "/images/soda.webp",
-        "altImage": "First drink Image",
-        "title": "Refrigerante 4",
-        "description": "Uma Bebida enlatada e Gaseificada da marca Guaraná Antártica no sabor Guaraná. Unidade com 375ml",
+        "src": "/images/drinks/drinks-3.webp",
+        "altImage": "Drink de Gin com Laranja",
+        "title": "Drink de Gin com Laranja",
+        "description": "Um drink refrescante de gin com laranja, perfeito para quem busca uma opção com álcool suave e sabor cítrico. Taça de 275ml.",
         "secondTitle": "",
         "ingredients": "",
-        "price": 8.90,
+        "price": 26.90,
         "quantity": 0
     }
 ]

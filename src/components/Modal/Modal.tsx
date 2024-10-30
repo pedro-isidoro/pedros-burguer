@@ -32,21 +32,27 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
         setAddressValue(e.target.value)
     }
     const handleValues = () => {
-        if (products.length <= 0) {
-            warningNotify("Adicione um Produto ao carrinho!")
-            warningNotify("ANTES de finalizar um pedido!")
-        } else if (addressValue === "" || products.length <= 0) {
+        if (products.length === 0) {
+            warningNotify("Adicione um Produto ao carrinho antes de finalizar o pedido!");
+            return;
+        }
+
+        if (!addressValue) {
             setReadyToSend(true);
             warningNotify("Insira um endereço de entrega!");
-        } else {
-            loadingNotify();
-            setTimeout(() => {
-                setReadyToSend(false);
-                messageToWhatsApp();
-                location.reload();
-            }, 3500);
+            return;
         }
-    }
+
+        setReadyToSend(false);
+        loadingNotify();
+        setTimeout(() => {
+            messageToWhatsApp();
+        }, 3500);
+        
+        setTimeout(() => {
+            location.reload();
+        }, 5000);
+    };
     if(isOpen){
         return(
             <div className="bg-black/70 w-full h-full fixed top-0 left-0 z-30 items-center justify-center flex">

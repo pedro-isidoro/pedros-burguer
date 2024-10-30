@@ -1,46 +1,57 @@
 [
     {
         "id": 21,
-        "src": "/images/ice-cream.jpg",
+        "src": "/images/desserts/ice-cream.webp",
         "altImage": "First dessert Image",
         "title": "Sobremesa da Casa",
         "description": "Versão exclusiva da Banoffee no estilo Outback: base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela. Contém nozes ou derivado de nozes. *Vegetariano – Esse produto contém leite e ovo em sua composição.",
         "secondTitle": "",
         "ingredients": "",
-        "price": 29.90,
+        "price": 27.90,
         "quantity": 0
     },
     {
         "id": 22,
-        "src": "/images/ice-cream.jpg",
+        "src": "/images/desserts/dessert-1.webp",
         "altImage": "First dessert Image",
-        "title": "Cinna Cream Monrol",
-        "description": "Versão exclusiva da Banoffee no estilo Outback: base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela.",
+        "title": "Tortinha Branca com Morango",
+        "description": "Uma deliciosa tortinha com base crocante de biscoito de leite, recheio de creme branco e finalizada com morangos frescos e chantilly. Ideal para quem aprecia o sabor doce e suave do creme combinado com a acidez da fruta.",
         "secondTitle": "",
         "ingredients": "",
-        "price": 34.90,
+        "price": 18.90,
         "quantity": 0
     },
     {
         "id": 23,
-        "src": "/images/ice-cream.jpg",
+        "src": "/images/desserts/dessert-2.webp",
         "altImage": "First dessert Image",
-        "title": "Sobremesa 3",
-        "description": "Versão exclusiva da Banoffee no estilo Outback: base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela. Contém nozes ou derivado de nozes. *Vegetariano – Esse produto contém leite e ovo em sua composição.",
+        "title": "Brownie",
+        "description": "Um clássico brownie de chocolate com um toque suave de nozes, crocante por fora e macio por dentro. Servido quente, perfeito para acompanhar uma bola de sorvete ou chantilly. *Contém nozes ou derivados. Vegetariano – Este produto contém leite e ovo.",
         "secondTitle": "",
         "ingredients": "",
-        "price": 29.90,
+        "price": 26.90,
         "quantity": 0
     },
     {
         "id": 24,
-        "src": "/images/ice-cream.jpg",
+        "src": "/images/desserts/dessert-3.webp",
         "altImage": "First dessert Image",
-        "title": "Cinna 4",
-        "description": "Versão exclusiva da Banoffee no estilo Outback: base crocante de biscoito Thunder, doce de leite, brigadeiro com canela e finalizado com rodelas de banana, chantilly e canela.",
+        "title": "Vanilla Cake",
+        "description": "Bolo fofo de baunilha com uma cobertura delicada de chantilly e raspas de chocolate branco. Um toque clássico e suave que derrete na boca e traz uma explosão de sabor para os amantes de baunilha.",
         "secondTitle": "",
         "ingredients": "",
-        "price": 34.90,
+        "price": 32.90,
+        "quantity": 0
+    },
+    {
+        "id": 24,
+        "src": "/images/desserts/dessert-4.webp",
+        "altImage": "First dessert Image",
+        "title": "Cupcake de Chocolate",
+        "description": "Cupcake de chocolate intenso, com uma cobertura de ganache cremosa e finalizado com raspas de chocolate. Uma explosão de sabor para quem adora chocolate.",
+        "secondTitle": "",
+        "ingredients": "",
+        "price": 21.90,
         "quantity": 0
     }
 ]
