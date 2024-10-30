@@ -24,6 +24,14 @@ export function removeNotify() {
     });
   }
 
+export function infoNotify() {
+    toast.info("Nenhum item no Carrinho!", {
+      duration: 2000,
+      className:
+        "w-[14rem] h-[1.8rem] pl-[0.5rem] py-1 flex justify-center items-center",
+    });
+  }
+
 export function loadingNotify(){
   const promise = () => new Promise((resolve) => setTimeout(() => resolve({ name: 'Sonner' }), 2000));
 

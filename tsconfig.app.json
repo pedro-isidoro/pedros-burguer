@@ -22,7 +22,11 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/components/*": ["./src/components/*"],
-    }
+    },
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["vitest", "@testing-library/jest-dom"],
   },
   "include": ["src"]
 }

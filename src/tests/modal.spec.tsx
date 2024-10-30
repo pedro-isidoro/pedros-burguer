@@ -4,13 +4,14 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { Modal } from '@/components/Modal/Modal';
 import { useProductStore } from '@/store/cart';
 
+// Mock da store
 vi.mock('@/store/cart', () => ({
     useProductStore: vi.fn(),
 }));
 
 describe('Modal - Should render elements and status', () => {
     beforeEach(() => {
-        (useProductStore as jest.Mock).mockReturnValue({
+        (useProductStore as unknown as jest.Mock).mockReturnValue({
             products: [{ title: 'Hambúrguer', price: 20.00, quantity: 1 }],
             total: () => 'R$ 20,00',
         });

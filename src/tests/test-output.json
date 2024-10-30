@@ -1,18 +1,18 @@
-{"numTotalTestSuites":22,"numPassedTestSuites":22,"numFailedTestSuites":0,"numPendingTestSuites":0,"numTotalTests":63,"nu    <testsuite name="address.spec.tsx" timestamp="2024-10-30T12:18:36.832Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
-        <testcase classname="address.spec.tsx" name="Address - Should render elements &gt; Should render Title" time="0">
+{"numTotalTestSuites":22,"numPassedTestSuites":22,"numFailedTestSuites":0,"numPendingTestSuites":0,"numTotalTests":63,"num    <testsuite name="Address.spec.tsx" timestamp="2024-10-30T13:35:32.399Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
+        <testcase classname="Address.spec.tsx" name="Address - Should render elements &gt; Should render Title" time="0">
             <skipped/>
         </testcase>
-        <testcase classname="address.spec.tsx" name="Address - Should render elements &gt; Should render paragraph 1" time="0">
+        <testcase classname="Address.spec.tsx" name="Address - Should render elements &gt; Should render paragraph 1" time="0">
             <skipped/>
         </testcase>
-        <testcase classname="address.spec.tsx" name="Address - Should render elements &gt; Should render paragraph 2" time="0">
+        <testcase classname="Address.spec.tsx" name="Address - Should render elements &gt; Should render paragraph 2" time="0">
             <skipped/>
         </testcase>
-        <testcase classname="address.spec.tsx" name="Address - Should render elements &gt; Should render Alt Text Images" time="0">
+        <testcase classname="Address.spec.tsx" name="Address - Should render elements &gt; Should render Alt Text Images" time="0">
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="BurguersSlider.spec.tsx" timestamp="2024-10-30T12:18:36.841Z" hostname="Pedro" tests="7" failures="0" errors="0" skipped="7" time="0">
+    <testsuite name="BurguersSlider.spec.tsx" timestamp="2024-10-30T13:35:32.405Z" hostname="Pedro" tests="7" failures="0" errors="0" skipped="7" time="0">
         <testcase classname="BurguersSlider.spec.tsx" name="Burguers - Should render elements &gt; Should render Alt Text Images" time="0">
             <skipped/>
         </testcase>
@@ -35,7 +35,7 @@
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="Desserts.spec.tsx" timestamp="2024-10-30T12:18:36.844Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
+    <testsuite name="Desserts.spec.tsx" timestamp="2024-10-30T13:35:32.408Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
         <testcase classname="Desserts.spec.tsx" name="Desserts - Should render elements &gt; Should render Alt Text Images" time="0">
             <skipped/>
         </testcase>
@@ -52,7 +52,7 @@
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="DrinksSlider.spec.tsx" timestamp="2024-10-30T12:18:36.847Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
+    <testsuite name="DrinksSlider.spec.tsx" timestamp="2024-10-30T13:35:32.410Z" hostname="Pedro" tests="5" failures="0" errors="0" skipped="5" time="0">
         <testcase classname="DrinksSlider.spec.tsx" name="Drinks - Should render elements &gt; Should render Alt Text Images" time="0">
             <skipped/>
         </testcase>
@@ -69,7 +69,7 @@
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="Footer.spec.tsx" timestamp="2024-10-30T12:18:36.851Z" hostname="Pedro" tests="7" failures="0" errors="0" skipped="7" time="0">
+    <testsuite name="Footer.spec.tsx" timestamp="2024-10-30T13:35:32.413Z" hostname="Pedro" tests="7" failures="0" errors="0" skipped="7" time="0">
         <testcase classname="Footer.spec.tsx" name="Footer - Should render elements &gt; Should render Alt Text Images" time="0">
             <skipped/>
         </testcase>
@@ -92,7 +92,7 @@
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="Header.spec.tsx" timestamp="2024-10-30T12:18:36.855Z" hostname="Pedro" tests="24" failures="0" errors="0" skipped="24" time="0">
+    <testsuite name="Header.spec.tsx" timestamp="2024-10-30T13:35:32.415Z" hostname="Pedro" tests="24" failures="0" errors="0" skipped="24" time="0">
         <testcase classname="Header.spec.tsx" name="Header - Should render your elements &gt; Should render forkIcon from menu" time="0">
             <skipped/>
         </testcase>
@@ -166,7 +166,7 @@
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="Home.spec.tsx" timestamp="2024-10-30T12:18:36.875Z" hostname="Pedro" tests="3" failures="0" errors="0" skipped="3" time="0">
+    <testsuite name="Home.spec.tsx" timestamp="2024-10-30T13:35:32.423Z" hostname="Pedro" tests="3" failures="0" errors="0" skipped="3" time="0">
         <testcase classname="Home.spec.tsx" name="Home - Should render elements &gt; Should render Top Text" time="0">
             <skipped/>
         </testcase>
@@ -177,7 +177,7 @@
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="Logo.spec.tsx" timestamp="2024-10-30T12:18:36.876Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
+    <testsuite name="Logo.spec.tsx" timestamp="2024-10-30T13:35:32.424Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="4" time="0">
         <testcase classname="Logo.spec.tsx" name="Logo - Should render elements and status &gt; Should render logoImage" time="0">
             <skipped/>
         </testcase>
@@ -191,15 +191,15 @@
             <skipped/>
         </testcase>
     </testsuite>
-    <testsuite name="modal.spec.tsx" timestamp="2024-10-30T12:18:36.878Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="0" time="0.2490083">
-        <testcase classname="modal.spec.tsx" name="Modal - Should render elements and status &gt; Should render header and elements" time="0.0748815">
+    <testsuite name="Modal.spec.tsx" timestamp="2024-10-30T13:35:32.424Z" hostname="Pedro" tests="4" failures="0" errors="0" skipped="0" time="0.1609721">
+        <testcase classname="Modal.spec.tsx" name="Modal - Should render elements and status &gt; Should render header and elements" time="0.0459201">
         </testcase>
-        <testcase classname="modal.spec.tsx" name="Modal - Should render elements and status &gt; Should display products in the cart" time="0.1218579">
+        <testcase classname="Modal.spec.tsx" name="Modal - Should render elements and status &gt; Should display products in the cart" time="0.0702252">
         </testcase>
-        <testcase classname="modal.spec.tsx" name="Modal - Should render elements and status &gt; Should update address input value" time="0.0322401">
+        <testcase classname="Modal.spec.tsx" name="Modal - Should render elements and status &gt; Should update address input value" time="0.0235397">
         </testcase>
-        <testcase classname="modal.spec.tsx" name="Modal - Should render elements and status &gt; Should call setModalClosed when closing the modal" time="0.0139763">
+        <testcase classname="Modal.spec.tsx" name="Modal - Should render elements and status &gt; Should call setModalClosed when closing the modal" time="0.0192482">
         </testcase>
     </testsuite>
 </testsuites>
-torTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Shouldnt render close icon","status":"skipped","title":"Shouldnt render close icon","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Shouldnt render Total Text","status":"skipped","title":"Shouldnt render Total Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Should render R$ Text","status":"skipped","title":"Should render R$ Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Should render Finalizar button","status":"skipped","title":"Should render Finalizar button","failureMessages":[],"meta":{}}],"startTime":1730290708166,"endTime":1730290708166,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Header.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render Top Text","status":"skipped","title":"Should render Top Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render Bottom Text","status":"skipped","title":"Should render Bottom Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render alt text images","status":"skipped","title":"Should render alt text images","failureMessages":[],"meta":{}}],"startTime":1730290708166,"endTime":1730290708166,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Home.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should render logoImage","status":"skipped","title":"Should render logoImage","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should render Logo Text","status":"skipped","title":"Should render Logo Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should show restaurant is open between 17:00 and 23:30","status":"skipped","title":"Should show restaurant is open between 17:00 and 23:30","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should show restaurant is closed outside working hours","status":"skipped","title":"Should show restaurant is closed outside working hours","failureMessages":[],"meta":{}}],"startTime":1730290708166,"endTime":1730290708166,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Logo.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Modal - Should render elements and status"],"fullName":"Modal - Should render elements and status Should render header and elements","status":"passed","title":"Should render header and elements","duration":74.88150000000041,"failureMessages":[],"meta":{}},{"ancestorTitles":["Modal - Should render elements and status"],"fullName":"Modal - Should render elements and status Should display products in the cart","status":"passed","title":"Should display products in the cart","duration":121.85789999999997,"failureMessages":[],"meta":{}},{"ancestorTitles":["Modal - Should render elements and status"],"fullName":"Modal - Should render elements and status Should update address input value","status":"passed","title":"Should update address input value","duration":32.240099999999984,"failureMessages":[],"meta":{}},{"ancestorTitles":["Modal - Should render elements and status"],"fullName":"Modal - Should render elements and status Should call setModalClosed when closing the modal","status":"passed","title":"Should call setModalClosed when closing the modal","duration":13.976300000000265,"failureMessages":[],"meta":{}}],"startTime":1730290713763,"endTime":1730290714008.9763,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/modal.spec.tsx"}]}
+orTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Shouldnt render close icon","status":"skipped","title":"Shouldnt render close icon","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Shouldnt render Total Text","status":"skipped","title":"Shouldnt render Total Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Should render R$ Text","status":"skipped","title":"Should render R$ Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Header - Should render your elements","Cart Aside - Shouldnt render Cart Elements"],"fullName":"Header - Should render your elements Cart Aside - Shouldnt render Cart Elements Should render Finalizar button","status":"skipped","title":"Should render Finalizar button","failureMessages":[],"meta":{}}],"startTime":1730295312306,"endTime":1730295312306,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Header.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render Top Text","status":"skipped","title":"Should render Top Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render Bottom Text","status":"skipped","title":"Should render Bottom Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Home - Should render elements"],"fullName":"Home - Should render elements Should render alt text images","status":"skipped","title":"Should render alt text images","failureMessages":[],"meta":{}}],"startTime":1730295312306,"endTime":1730295312306,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Home.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should render logoImage","status":"skipped","title":"Should render logoImage","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should render Logo Text","status":"skipped","title":"Should render Logo Text","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should show restaurant is open between 17:00 and 23:30","status":"skipped","title":"Should show restaurant is open between 17:00 and 23:30","failureMessages":[],"meta":{}},{"ancestorTitles":["Logo - Should render elements and status"],"fullName":"Logo - Should render elements and status Should show restaurant is closed outside working hours","status":"skipped","title":"Should show restaurant is closed outside working hours","failureMessages":[],"meta":{}}],"startTime":1730295312306,"endTime":1730295312306,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Logo.spec.tsx"},{"assertionResults":[{"ancestorTitles":["Modal - Should render elements and status"],"fullName":"Modal - Should render elements and status Should render header and elements","status":"passed","title":"Should render header and elements","duration":45.920099999999366,"failureMessages":[],"meta":{}},{"ancestorTitles":["Modal - Should render elements and status"],"fullName":"Modal - Should render elements and status Should display products in the cart","status":"passed","title":"Should display products in the cart","duration":70.22520000000077,"failureMessages":[],"meta":{}},{"ancestorTitles":["Modal - Should render elements and status"],"fullName":"Modal - Should render elements and status Should update address input value","status":"passed","title":"Should update address input value","duration":23.539700000001176,"failureMessages":[],"meta":{}},{"ancestorTitles":["Modal - Should render elements and status"],"fullName":"Modal - Should render elements and status Should call setModalClosed when closing the modal","status":"passed","title":"Should call setModalClosed when closing the modal","duration":19.248199999998178,"failureMessages":[],"meta":{}}],"startTime":1730295329875,"endTime":1730295330034.2483,"status":"passed","message":"","name":"C:/Users/pedro/OneDrive/Área de Trabalho/Curso-Dev-Quest/projetos/Mine/pedros-burguer/src/tests/Modal.spec.tsx"}]}
