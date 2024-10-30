@@ -48,10 +48,6 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
         setTimeout(() => {
             messageToWhatsApp();
         }, 3500);
-        
-        setTimeout(() => {
-            location.reload();
-        }, 5000);
     };
     if(isOpen){
         return(
