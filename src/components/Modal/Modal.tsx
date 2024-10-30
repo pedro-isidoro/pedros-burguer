@@ -36,6 +36,7 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
             warningNotify("Adicione um Produto ao carrinho!")
             warningNotify("ANTES de finalizar um pedido!")
         } else if (addressValue === "" || products.length <= 0) {
+            setReadyToSend(true);
             warningNotify("Insira um endereço de entrega!");
         } else {
             loadingNotify();
