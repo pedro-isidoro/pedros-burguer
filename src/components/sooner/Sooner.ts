@@ -12,7 +12,7 @@ export function warningNotify(text:string) {
     toast.warning(text, {
       duration: 2000,
       className:
-        "w-[15rem] h-[1.8rem] py-1 flex justify-center items-justify-center",
+        "w-[16rem] h-[1.8rem] py-1 flex justify-center items-justify-center",
     });
   }
 
