@@ -45,9 +45,10 @@ export const Modal = ({ isOpen, setModalClosed } : props) => {
 
         setReadyToSend(false);
         loadingNotify();
-        setTimeout(() => {
-            messageToWhatsApp();
-        }, 3500);
+        messageToWhatsApp();
+        // setTimeout(() => {
+        //     messageToWhatsApp();
+        // }, 3500);
     };
     if(isOpen){
         return(
